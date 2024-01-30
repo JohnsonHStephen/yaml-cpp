@@ -2,6 +2,11 @@ build/
 /tags
 /bazel-*
 
+# Binaries
+**/bin/
+!vendor/premake/bin
+bin-int/
+
 # Visual Studio Files
 .vs/
 **.sln
